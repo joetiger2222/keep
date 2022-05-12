@@ -56,11 +56,11 @@ public class noteActivity extends AppCompatActivity {
     }
 
 
-    public static void changeFontSize(int fontSize){writingNote.setTextSize(fontSize);}//to the person who will take font size class
+    public static void changeFontSize(int fontSize){writingNote.setTextSize(fontSize);}
 
 
 
-    public static void changeWritingNoteColor(int colorId){// to person who will take background class
+    public static void changeWritingNoteColor(int colorId){
         switch (colorId){
             case 0:
                 noteActivity.setBackgroundColor(Color.BLUE);

@@ -96,7 +96,7 @@ public class recentNoteActivity extends AppCompatActivity {
 
 
 
-    public static void changeWritingNoteColor(int colorId){// to person who will take background class
+    public static void changeWritingNoteColor(int colorId){
         switch (colorId){
             case 0:
                 recentNote.setBackgroundColor(Color.BLUE);
